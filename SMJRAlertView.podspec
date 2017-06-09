@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SMJRAlertView"
 
-  s.version      = "3.0.3"
+  s.version      = "3.1.0"
 
   s.summary      = "SMAlertView -> custom alertView"
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/TieShanWang/SMJRAlertView.git", :tag => "3.0.3" }
+  s.source       = { :git => "https://github.com/TieShanWang/SMJRAlertView.git", :tag => "3.1.0" }
 
   s.framework  = "UIKit"
 
