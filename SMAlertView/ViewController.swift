@@ -19,7 +19,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Alert("here", msg: "where do you want to go?", buttons: ["BeiJing", "HangZhou", "ShangHai"]) { (alertView) in
+            debugPrint("go to BeiJing")
+        }, { (alertView) in
+            debugPrint("go to HangZhou")
+        }, { (alertView) in
+            debugPrint("go to ShangHai")
+        }
     }
 
     
@@ -122,7 +128,7 @@ class ViewController: UIViewController {
         let view = SMAlertImageView.init(title: "验证失败", attributeMessage: att, image: UIImage.init(named: "22"), cancelButtonTitle: "返回", destructive: "从新认证", OB: nil, delegate: nil)
         
         view.show()
-        
+     
     }
     
 }
